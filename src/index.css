@@ -1,0 +1,56 @@
+body {
+  margin: 50px;
+}
+
+@font-face {
+  font-family: "CalibreMedium";
+  font-size: 16;
+  src: url(./fonts/Calibre/Calibre-Medium.otf);
+  src: url(./fonts/Calibre/Calibre-MediumItalic.otf);
+}
+
+@font-face {
+  font-family: "CalibreRegular";
+  src: url(./fonts/Calibre/Calibre-Regular.otf);
+  src: url(./fonts/Calibre/Calibre-RegularItalic.otf);
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  src: url(./fonts/Futura/futura-bk-btBOOK/FuturaBookBT.ttf);
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: url(./fonts/Futura/futura-bk-btMEDIUM/Futura_20Medium_20BT.ttf);
+}
+
+h1 {
+  font-family: "CalibreMedium";
+  font-size: 54px;
+  color: #044b35;
+}
+
+h2 {
+  font-family: "CalibreMedium";
+  font-size: 45;
+  color: #044b35;
+  text-align: left;
+}
+
+h3 {
+  font-family: "CalibreMedium";
+  font-size: 16;
+  color: #044b35;
+}
+
+p {
+  font-family: "FuturaBook";
+  color: #333;
+}
+
+label {
+  font-family: "CalibreRegular";
+  font-size: 18;
+  color: #044b35;
+}

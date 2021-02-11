@@ -1,0 +1,27 @@
+.scenario {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #2afbca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.scenario > p {
+  margin: 4px;
+}
+
+.scenario-clicked {
+  background-image: linear-gradient(#7d7ccf, #2afbca);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}

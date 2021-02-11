@@ -1,0 +1,40 @@
+.benefits {
+  background-color: #efeaea;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__results {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.spaceRequired > p,
+.potential > p,
+.cost > p {
+  margin: 0;
+}
+
+.benefits__keyBenefits > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.benefits__upload {
+  display: block;
+}
+
+.MuiSvgIcon-root {
+  color: #044b35;
+}
+
+button {
+  border: 1px solid #044b35;
+  margin: 10px;
+  border-radius: 3px;
+}

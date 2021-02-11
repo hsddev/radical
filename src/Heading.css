@@ -1,0 +1,13 @@
+.heading {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.heading > h1 {
+  color: #044b35;
+  text-align: center;
+}
+
+.heading > p {
+  color: #333;
+  text-align: center;
+}

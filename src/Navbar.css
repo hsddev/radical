@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.navbar__logo {
+  color: #044b35;
+  padding-left: 15px;
+}
+
+.navbar__link {
+  color: #044b35;
+  text-decoration: none;
+  width: 100px;
+}
+
+.selected {
+  display: block;
+  text-decoration: none;
+  border-bottom: 3px solid #1db6a9;
+  height: 36px;
+}

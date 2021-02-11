@@ -1,0 +1,24 @@
+.custom {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 20px;
+
+  margin-bottom: 20px;
+}
+
+.custom > h3 {
+  text-align: left;
+  margin: 0;
+}
+.sliderInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliderInfo > p {
+  margin: 0;
+  font-family: "CalibreMedium";
+  font-size: 16;
+  color: #044b35;
+}
